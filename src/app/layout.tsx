@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import Link from "next/link";
-
+import Script from 'next/script';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -31,7 +31,100 @@ export default function RootLayout({
 
         {/* ✅ SEO Meta Tags */}
         <meta name="description" content="Professional laundry service at your doorstep. Fast, reliable, and affordable dry cleaning and washing services." />
-        <meta name="keywords" content="laundry service, dry cleaning, washing service, doorstep laundry, professional laundry, Fast Step Laundry ,iron clothes ," />
+dry cleaning
+        <meta name="keywords" content="laundry service, dry cleaning, washing service, doorstep laundry, professional laundry, Fast Step Laundry ,iron clothes , dry clean near me, dry cleaners near me, online dry cleaner laundry service,
+washing service,
+doorstep laundry,
+professional laundry,
+Fast Step Laundry,
+iron clothes,
+dry clean near me,
+dry cleaners near me,
+online dry cleaner
+laundry pickup and delivery,
+wash and fold,
+laundry delivery service,
+commercial laundry service,
+shoe cleaning service,
+laundry service from home,
+drop-off laundry service,
+same day laundry service,
+laundry services for hotels,
+pickup laundry service,
+laundry service cost,
+laundry coupons,
+professional laundry service,
+local laundry service,
+laundry service pricing,
+commercial dry cleaning,
+personal laundry service,
+uniform laundry service,
+laundry cleaning products,
+express laundry service,
+fluff and fold service,
+stain removal service,
+laundry service advertising,
+affordable laundry service,
+laundry subscription service,
+laundry service reviews,
+bed linen laundry service,
+laundry service near me,
+laundry service for business,
+quality laundry service,
+large item laundry service,
+specialty laundry service,
+laundry service for students,
+laundromat near me,
+laundry near me,
+laundromat,
+coin laundry near me,
+24 hour laundromat near me,
+launderette near me,
+coin laundry,
+wash and fold near me,
+24 hour laundromat,
+laundry shop near me,
+launderette,
+dobi near me,
+nearest laundromat,
+24 hour laundry near me,
+self service laundry near me,
+ironing service near me,
+closest laundromat,
+drop off laundry near me,
+closest laundromat to me,
+laundry shop,
+find a laundromat near me,
+24 hr laundry near me,
+24 hour laundry,
+eco-friendly laundry service,
+laundry concierge services,
+commercial laundry services,
+laundry for hotels,
+laundry app,
+laundry pickup service,
+laundry home delivery,
+best laundry service,
+cheap laundry service,
+laundry cleaning,
+laundry and dry cleaning,
+laundry solutions,
+laundry experts,
+laundry care,
+laundry assistance,
+laundry help,
+laundry support,
+laundry management,
+laundry professionals,
+laundry specialists,
+laundry solutions near me,
+laundry pickup,
+laundry delivery,
+laundry drop off,
+laundry collection,
+laundry return,
+laundry pickup and delivery near me,
+laundry pickup service near me" />
         <meta name="author" content="Fast Step Laundry" />
 
         {/* ✅ Open Graph Meta Tags (For Social Media Sharing) */}
@@ -57,6 +150,20 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
+          <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-WLBG1JM847`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WLBG1JM847', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
           <Link
             href={whatsappUrl}
             target="_blank"
