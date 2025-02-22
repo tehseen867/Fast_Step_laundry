@@ -75,7 +75,7 @@ export default function RootLayout({
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center sm:gap-x-1 gap-x-[1px] bg-green-600 text-white sm:w-48 w-[136px] h-10 rounded-full fixed sm:bottom-4 sm:right-4 right-1 bottom-1 text-sm shadow-lg hover:bg-green-700 transition"
+            className="flex items-center justify-center sm:gap-x-1 gap-x-[1px] bg-[#25D366] text-white sm:w-48 w-[136px] h-10 rounded-full fixed sm:bottom-4 sm:right-4 right-2 bottom-2 text-sm shadow-lg hover:bg-green-500 transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
