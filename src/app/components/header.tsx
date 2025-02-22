@@ -18,7 +18,7 @@ import {
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className=" pr-1 flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
           src={"/logo.png"}
@@ -73,7 +73,7 @@ export default function Header() {
               <Link href="/contact" className="text-lg font-medium hover:text-primary flex items-center gap-x-2">
               <Phone />Contact
               </Link>
-              <Button className="w-[90%] rounded-sm mt-8" asChild>
+              <Button className=" w-[90%] rounded-sm mt-8" size="sm" asChild>
                 <Link href="/donate">Donate Clothes</Link>
               </Button>
             </nav></SheetTitle>

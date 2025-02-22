@@ -10,7 +10,6 @@ export default function ServicesPage() {
         "Sorting by color and fabric type",
         "Temperature-appropriate washing",
         "Professional folding",
-        "Next-day delivery available",
       ],
       image: "/wash.jpg",
     },
@@ -26,8 +25,7 @@ export default function ServicesPage() {
       features: [
         "Temperature-controlled pressing",
         "Fabric-specific treatment",
-        "Hanging service",
-        "Same-day service available",
+        "Next-day delivery available",
       ],
       image: "/iron.jpg",
     },
@@ -102,7 +100,7 @@ export default function ServicesPage() {
                 1
               </div>
               <h3 className="text-xl font-semibold mb-2 bg-clip-text text-transparent bg-gradient-to-t from-gray-600 to-gray-800 ">Schedule Pickup</h3>
-              <p className="text-muted-foreground">Book your pickup time online or via phone</p>
+              <p className="text-muted-foreground">Book your pickup time via Whatsapp or phone call</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">

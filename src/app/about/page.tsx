@@ -12,7 +12,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:mb-6 mb-2 bg-clip-text text-transparent bg-gradient-to-b from-blue-500 py-2  to-blue-800">About Fast Step Laundry</h1>
             <p className="sm:text-xl text-lg  text-muted-foreground mb-8">
-              Your trusted partner in professional laundry services since 2020
+              Your trusted partner in professional laundry services since 2024
             </p>
           </div>
         </div>
