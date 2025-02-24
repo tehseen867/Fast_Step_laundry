@@ -83,8 +83,8 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="sm:py-20 py-10 bg-gradient-to-b from-blue-200 to-gray-50 text-primary-foreground">
         <div className="container text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-t from-gray-500 to-gray-700 font-bold  sm:mb-6 mb-4">Ready to Experience Premium Laundry Service?</h2>
-          <p className="sm:text-xl text-sm sm:mb-8 mb-6 text-black/60 opacity-90">Join thousands of satisfied customers who trust Fast Step Laundry</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-t from-gray-500 to-gray-700 font-bold  sm:mb-6 mb-4">Reliable Laundry, Fresh Every Time</h2>
+          <p className="sm:text-xl text-sm sm:mb-8 mb-6 text-black/60 opacity-90">Join thousands who trust Fast Step Laundry for top-quality service!</p>
           <Button size="lg" asChild >
             <Link href="https://wa.me/923324189074?">Get Started Today</Link>
           </Button>

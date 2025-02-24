@@ -60,10 +60,10 @@ src={"/logo.png"}              alt="Fast Step Laundry Logo"
           <div>
             <h3 className="text-lg font-semibold  md:mb-4 mb-2 bg-clip-text text-transparent bg-gradient-to-b from-blue-600 to-blue-400">Follow Us</h3>
             <div className="flex space-x-4">
-              <Link href="https://www.facebook.com/profile.php?id=61573060392789" className="text-gray-800 hover:text-blue-500">
+              <Link href="https://www.facebook.com/share/1HSjHCcndw/" className="text-gray-800 hover:text-blue-500">
                 <Facebook className="h-5 w-6" />
               </Link>
-              <Link href="https://www.instagram.com/" className="text-gray-800 hover:text-blue-500">
+              <Link href="https://www.instagram.com/faststeplaundry?igsh=MTh5MTBxb2NwNWttaQ==" className="text-gray-800 hover:text-blue-500">
                 <Instagram className="h-5 w-6" />
               </Link>
             
