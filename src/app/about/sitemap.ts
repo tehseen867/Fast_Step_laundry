@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const siteUrl = 'https://faststeplaundry.online';
+const siteUrl = 'https://www.faststeplaundry.online';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

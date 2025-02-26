@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://faststeplaundry.online',
+    siteUrl: 'https://www.faststeplaundry.online',
   };
   

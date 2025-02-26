@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://faststeplaundry.online/sitemap.xml',
+    sitemap: 'https://www.faststeplaundry.online/sitemap.xml',
   };
 }
