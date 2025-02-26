@@ -37,8 +37,8 @@ export default function RootLayout({
         {/* ✅ Open Graph Meta Tags (For Social Media Sharing) */}
         <meta property="og:title" content="Fast Step Laundry Service" />
         <meta property="og:description" content="Professional laundry service at your doorstep. Fast, reliable, and affordable dry cleaning and washing services." />
-        <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://faststeplaundry.online" />
+        <meta property="og:image" content="https://www.faststeplaundry.online/logo.png" />
+        <meta property="og:url" content="https://www.faststeplaundry.online" />
         <meta property="og:type" content="website" />
 
         {/* ✅ Twitter Meta Tags */}
@@ -48,7 +48,7 @@ export default function RootLayout({
         <meta name="twitter:image" content="/logo.png" />
 
         {/* ✅ Canonical URL */}
-        <link rel="canonical" href="https://faststeplaundry.online" />
+        <link rel="canonical" href="https://www.faststeplaundry.online" />
 
         {/* ✅ Favicon */}
         <link rel="icon" href="/logo.png" type="image/png" />
